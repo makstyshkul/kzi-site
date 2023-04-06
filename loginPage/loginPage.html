@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вхід</title>
+	<link rel="stylesheet" href="./loginPage-style.css">
+	<link href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20879,20880" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@500&family=Poppins:wght@500;600&family=Raleway:wght@500&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<a href="../mainPage/mainPage.html">
+					<div class="header__logo">
+				KZI
+				</div>
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<a href="../mainPage/mainPage.html">
+						<li class="menu__item">
+							Головна
+						</li>
+					</a>
+					<a href="../mainPage/mainPage.html#first-news" class="item-text">
+						<li id="news" class="menu__item">
+							Новини
+						</li>
+					</a>
+					<a href="../mainPage/mainPage.html#about" class="item-text">
+						<li class="menu__item about">
+							Про нас
+						</li>
+					</a>
+					</ul>
+				</nav>
+				<div class="header__exit">
+					<img src="./icons/header/user.svg" alt="user" class="exit__icon">
+					<p class="exit__text">Вхід</p>
+				</div>
+			</div>
+		</header>
+		<img src="./main/cloud.svg" alt="cloud" class="cloud">
+		<div class="chickens">
+					<img class="background" src="./main/chicken-back.svg" alt="background">
+					<img src="./main/chicken.svg" alt="chicken" class="chicken">
+		</div>
+		<main class="main">
+			<div class="main__main-block main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__body">
+						<div class="main-block__logo">KZI</div>
+						<div class="main-block__form">
+								<div class="main-block__title">Вхід</div>
+								<label for="" class="email-label">Пошта</label>
+								<input placeholder="Username@gmail.com" type="mail" class="email-input">
+								<label for="" class="password-label">Пароль</label>
+								<div class="password">
+								<input placeholder="Password" type="password" class="password-input">
+								<img src="./main/password-icon.svg" alt="password-icon" class="password-icon">
+								</div>
+								<div class="info">
+									<div class="remember">
+										<input type="checkbox" class="remember-checkbox">
+										<div class="remember-text">Запам’ятати мене</div>
+									</div>
+									<div class="forget">Забули Пароль?</div>
+								</div>
+								<a href="../profileM/profileM.html" class="main-block__button">Вхід</a>
+								<div class="main-block__text">
+									Досі немає облікового запису?
+								<br>
+								<br>
+								Будь ласка, отримайте дані входу у куратора, 
+								для підтвердження облікового запису.
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					</main>
+					<img src="./main/cloud.svg" alt="cloud-bottom" class="cloud-bottom">
+		<foter class="footer">
+			<div class="footer__container _container">
+				<div class="footer__body">
+					<div class="footer__left">
+						<h3 class="left__title">KZI</h3>
+						<div class="left__text">Електронний журнал - це журнал, <br> який завжди поруч!</div>
+					</div>
+					<div class="footer__right">
+						<div class="right__first-list">
+							<h5 class="first-list__title">Більше про KZI</h5>
+							<ul class="first-list__list">
+								<li class="first-list__item">Головна</li>
+								<li class="first-list__item">Новини</li>
+								<li class="first-list__item">Про нас</li>
+								<li class="first-list__item">Вхід</li>
+							</ul>
+						</div>
+						<div class="right__second-list">
+							<h5 class="second-list__title">Більше про KZI</h5>
+							<ul class="second-list__list">
+								<li class="second-list__item">Instagram <a href="https://www.instagram.com/collegeonat/?hl=ru">
+									<img src="./icons/main/inst.svg" alt="inst" class="icon">
+								</a> </li>
+								<li class="second-list__item">Telegram <a href="https://t.me/kzinews">
+									<img src="./icons/main/telegram.svg" alt="tg" class="icon">
+								</a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__text">© Електронний щоденник, KZI. Всі права захищені, 2023.</div>
+			</div>
+		</foter>
+	</div>
+	<script src="./loginPage-script.js"></script>
+</body>
+
+</html>
